@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dApp-web3-project/static/css/main.68a12fab.css",
+    "main.js": "/dApp-web3-project/static/js/main.f00f4a7a.js",
+    "static/js/787.c8260f0a.chunk.js": "/dApp-web3-project/static/js/787.c8260f0a.chunk.js",
+    "index.html": "/dApp-web3-project/index.html",
+    "main.68a12fab.css.map": "/dApp-web3-project/static/css/main.68a12fab.css.map",
+    "main.f00f4a7a.js.map": "/dApp-web3-project/static/js/main.f00f4a7a.js.map",
+    "787.c8260f0a.chunk.js.map": "/dApp-web3-project/static/js/787.c8260f0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68a12fab.css",
+    "static/js/main.f00f4a7a.js"
+  ]
+}
