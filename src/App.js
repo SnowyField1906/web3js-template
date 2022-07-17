@@ -3,6 +3,18 @@ import { useState, useEffect } from "react";
 import Web3 from "web3";
 
 function App() {
+  const detectCurrentProvider = () => {
+    let provider;
+    if (window.ethereum) {
+      provider = window.ethereum;
+    } else if (window.web3) {
+      provider = window.web3.currentProvider;
+    } else {
+      console.log("Non-ethereum browser detected. You should install Metamask");
+    }
+    return provider;
+  };
+  
   const [accounts, setAccounts] = useState("");
   const [network, setNetwork] = useState("");
   const [balance, setBalance] = useState("");
